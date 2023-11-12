@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Izza botique</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #431c42;
+            color: #e6b5b5;
+            text-align: center;
+            padding: 1em;
+            font-size: 2em;
+            letter-spacing: 2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        header img {
+            width: 50px; 
+            margin-right: 50px; 
+        }
+        h2 img {
+            width: 10px; 
+            margin-right: 100px; 
+        }
+        
+
+        nav {
+            background-color: #1c2834;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #c0e9f3;
+            text-decoration: none;
+            margin: 0 1em;
+            font-size: 1.2em;
+            transition: color 0.3s ease-in-out;
+        }
+
+        nav a:hover {
+            color: #e74c3c;
+        }
+
+        section {
+            padding: 2em;
+            background-color: #fff;
+            margin: 1em;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        section:hover {
+            transform: scale(1.02);
+        }
+
+        section h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5em;
+        }
+
+        section p {
+            color: #34495e;
+            line-height: 1.5;
+        }
+
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 1em;
+            
+        }
+
+        .dress-category {
+            flex: 0 0 48%;
+            margin: 1%;
+        }
+
+        .dress-category h3 {
+            color: #2c3e50;
+            margin-bottom: 0.5em;
+        }
+
+        .dress-category img {
+            width: 200px;
+            height: 270px;
+            border-radius: 12px;
+            margin-bottom: 1em;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .dress-category img:hover {
+            transform: scale(1.1);
+        }
+
+        .reviews {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 2em 0;
+        }
+
+        .review {
+            flex: 0 0 30%;
+            background-color: #ecf0f1;
+            padding: 1.5em;
+            margin: 1em;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .review:hover {
+            transform: scale(1.02);
+        }
+
+        .review p {
+            color: #34495e;
+            line-height: 1.5;
+        }
+
+        .contact-details {
+            text-align: center;
+            margin-top: 2em;
+        }
+
+        .contact-details h2 {
+            color: #2c3e50;
+            margin-bottom: 0.5em;
+        }
+
+        .contact-details p {
+            color: #34495e;
+            line-height: 1.5;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/izza.png" alt="Photo"><b><i>IZZA BOTIQUE</i></b>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#online">online</a>
+        <a href="#photos">Photos</a>
+        <a href="#quality">Quality</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#purchase">purchase</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <br><br><br><br>
+    <section id="about">
+        <h2>About Us</h2>
+        <img src="images/izza.png" alt="Photo">
+        <p>Welcome to Izza botique, your go-to destination for high-quality and fashionable designes.<br> Our mission is to provide you with the latest trends and timeless classics to elevate your style.<br>
+        we costamizes dresses for your conveniance with high-qualty fabrics.</p>
+    </section>
+    <br><br><br><br>
+    <section id="online">
+        <h2>Purchase Online</h2>
+        <p>Explore the collection and make your on costomized purchase online to experience the convenience of shopping from the comfort of your home.</p>
+        <p><a href="https://www.google.com/search?q=womans+dresss+images&sca_esv=581330131&rlz=1C1CHBF_enIN1044IN1044&sxsrf=AM9HkKkgZLuXMJe7XU1r39UtjJhejMm3zg%3A1699650744106&ei=uJxOZfCVBuDuseMPnrS4kAQ&ved=0ahUKEwjw0eC2rLqCAxVgd2wGHR4aDkIQ4dUDCBA&uact=5&oq=womans+dresss+images&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHdvbWFucyBkcmVzc3MgaW1hZ2VzMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIIEAAYCBgeGA0yCBAAGAgYHhgNMggQABgIGB4YDTIIEAAYCBgeGA0yCBAAGIoFGIYDSO_aAVDSEliZ1gFwAngAkAEFmAH4DaABg1-qAREwLjcuMy4yLjIuMS4zLjMuMbgBA8gBAPgBAagCE8ICChAAGEcY1gQYsAPCAgoQABiKBRiwAxhDwgIWEC4YigUYxwEY0QMYyAMYsAMYQ9gBAcICEBAuGIoFGMgDGLADGEPYAQHCAgcQIxiKBRgnwgIOEAAYigUYsQMYgwEYkQLCAgsQABiKBRixAxiRAsICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgUQABiABMICCxAAGIoFGLEDGIMBwgIKEAAYgAQYFBiHAsICBxAjGOoCGCfCAhAQLhjHARivARiOBRjqAhgnwgIWEAAYAxiPARjlAhjqAhi0AhiMA9gBAsICGRAuGIoFGMcBGNEDGMgDGOoCGLQCGEPYAQPCAhMQLhiKBRjIAxjqAhi0AhhD2AEDwgIKEAAYigUYsQMYQ8ICBxAAGIoFGEPCAgoQLhixAxiKBRhDwgIIEC4YgAQYsQPCAgoQLhiABBixAxgKwgIFEC4YgATCAgQQABgDwgIPEAAYigUYsQMYQxhGGPsBwgIHEC4YgAQYCsICDRAAGIAEGLEDGIMBGArCAg0QLhiDARixAxiABBgKwgIHEAAYgAQYCsICDRAuGIAEGLEDGOUEGArCAg0QLhiABBixAxiDARgKwgIPEAAYgAQYsQMYChhGGPsBwgIKEAAYgAQYsQMYCsICChAAGIAEGMkDGArCAgoQABiABBiSAxgKwgIHEAAYDRiABMICExAAGA0YgAQYsQMYgwEYsQMYgwHCAgYQABgeGA3CAggQABgWGB4YD-IDBBgAIEGIBgGQBg26BgQIARgIugYGCAIQARgLugYGCAMQARgI&sclient=gws-wiz-serp">View More Photos</a></p>
+    </section>
+<br><br><br><br>
+<br><br><br><br>
+
+    <section id="photos">
+        <h2>Photo Gallery</h2>
+        <div class="image-gallery">
+            <div id="kurthi" class="dress-category">
+                <h3>Kurthi</h3>
+                <img src="images/kurthi1.jpg" alt="Kurthi 1">
+                <img src="images/kurthi2.jpg" alt="Kurthi 2">
+                <img src="images/kurthi3.jpg" alt="Kurthi 3">
+                <img src="images/kurthi4.jpg" alt="Kurthi 4">
+                <img src="images/kurthi5.jpg" alt="Kurthi 5">
+                <img src="images/kurthi6.jpg" alt="Kurthi 6">
+                <img src="images/kurthi7.jpg" alt="Kurthi 7">
+                <img src="images/kurthi8.jpg" alt="Kurthi 8"> 
+                <img src="images/kurthi9.jpg" alt="Kurthi 9">
+                <img src="images/kurthi10.jpg" alt="Kurthi 10">
+            </div>
+<br> <br> <br>
+            <div id="saree" class="dress-category">
+                <h3>Saree</h3>
+                <img src="images/saree1.jpg" alt="Saree 1">
+                <img src="images/saree2.jpg" alt="Saree 2">
+                <img src="images/saree3.jpg" alt="Saree 3">
+                <img src="images/saree4.jpg" alt="Saree 4">
+                <img src="images/saree5.jpg" alt="Saree 5">
+                <img src="images/saree6.jpg" alt="Saree 6">
+                <img src="images/saree7.jpg" alt="Saree 7">
+                <img src="images/saree9.jpg" alt="Saree 8">
+                <img src="images/saree8.jpg" alt="Saree 9">
+                <img src="images/saree10.jpg" alt="Saree 10">
+            </div>
+<br><br><br>
+            <div id="anarkali" class="dress-category">
+                <h3>Anarkali</h3>
+                <img src="images/anarkali1.jpg" alt="Anarkali 1">
+                <img src="images/anarkali2.jpg" alt="Anarkali 2">
+                <img src="images/anarkali3.jpg" alt="Anarkali 3">
+                <img src="images/anarkali4.jpg" alt="Anarkali 4">
+                <img src="images/anarkali5.jpg" alt="Anarkali 5">
+                <img src="images/anarkali6.jpg" alt="Anarkali 6">
+                <img src="images/anarkali7.jpg"alt="Anarkali 7">
+                <img src="images/anarkali8.jpg" alt="Anarkali 8">
+                <img src="images/anarkali9.jpg" alt="Anarkali 9">
+                <img src="images/anarkali10.jpg" alt="Anarkali 10">
+            </div>
+            <br><br><br>
+            <div id="tunics" class="dress-category">
+                <h3>Tunics</h3>
+                <img src="images/tunic1.jpg" alt="Tunics 1">
+                <img src="images/tunic2.jpg" alt="Tunics 2">
+                <img src="images/tunic3.jpg" alt="Tunics 3">
+                <img src="images/tunic4.jpg" alt="Tunics 4">
+                <img src="images/tunic5.jpg" alt="Tunics 5">
+                <img src="images/tunic6.jpg" alt="Tunics 6">
+                <img src="images/tunic7.jpg" alt="Tunics 7">
+                <img src="images/tunic8.jpg" alt="Tunics 8">
+                <img src="images/tunic9.jpg"alt="Tunics 9">
+                <img src="images/tunic10.jpg"alt="Tunics 10">
+            </div>
+            <br><br><br>
+            <div id="tshirts" class="dress-category">
+                <h3>T-Shirts</h3>
+                <img src="images/t-shirt1.jpg" alt="T-Shirts 1">
+                <img src="images/t-shirt2.jpg" alt="T-Shirts 2">
+                <img src="images/t-shirt3.jpg" alt="T-Shirts 3">
+                <img src="images/t-shirt4.jpg" alt="T-Shirts 4">
+                <img src="images/t-shirt5.jpg" alt="T-Shirts 5">
+                <img src="images/t-shirt6.jpg" alt="T-Shirts 6">
+                <img src="images/t-shirt7.jpg" alt="T-Shirts 7">
+                <img src="images/t-shirt8.jpg" alt="T-Shirts 8">
+                <img src="images/t-shirt9.jpg" alt="T-Shirts 9">
+                <img src="images/t-shirt10.jpg" alt="T-Shirts 10">
+            </div>
+<br><br><br>
+            <div id="formals" class="dress-category">
+                <h3>Formals</h3>
+                <img src="images/formal1.jpg" alt="Formals 1">
+                <img src="images/formal2.jpg" alt="Formals 2">
+                <img src="images/formal3.jpg" alt="Formals 3">
+                <img src="images/formal4.jpg"alt="Formals 4">
+                <img src="images/formal5.jpg" alt="Formals 5">
+                <img src="images/formal6.jpg" alt="Formals 6">
+                <img src="images/formal7.jpg" alt="Formals 7">
+                <img src="images/formal8.jpg" alt="Formals 8">
+                <img src="images/formal9.jpg" alt="Formals 9">
+                <img src="images/formal10.jpg"alt="Formals 10">
+            </div>
+            <br><br>
+            <div id="kids" class="dress-category">
+                <h3>Kids</h3>
+                <img src="images/kids1.jpg"alt="kids 1">
+                <img src="images/kids2.jpg" alt="kids 2">
+                <img src="images/kids3.jpg" alt="kids 3">
+                <img src="images/kids4.jpg" alt="kids 4">
+                <img src="images/kids5.jpg" alt="kids 5">
+                <img src="images/kids6.jpg" alt="kids 6">
+                <img src="images/kids7.jpg" alt="kids 7">
+                <img src="images/kids8.jpg" alt="kids 8">
+                <img src="images/kids9.jpg" alt="kids 9">
+                <img src="images/kids10.jpg" alt="kids 10">
+            </div>
+            <br><br>
+            <div id="Party weare" class="dress-category">
+                <h3>Party werw</h3>
+                <img src="images/party1.jpg" alt="Party weare 1">
+                <img src="images/party2.jpg" alt="Party weare 2">
+                <img src="images/party3.jpg" alt="Party weare 3">
+                <img src="images/party4.jpg" alt="Party weare 4">
+                <img src="images/party5.jpg" alt="Party weare 5">
+                <img src="images/party6.jpg" alt="Party weare 6">
+                <img src="images/party7.jpg" alt="Party weare 7">
+                <img src="images/party8.jpg" alt="Party weare 8">
+                <img src="images/party9.jpg" alt="Party weare 9">
+                <img src="images/party10.jpg" alt="Party weare 10">
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <br><br><br><br>
+    <section id="quality" class="quality-details">
+        <h2>Quality Details</h2>
+        <p>Our commitment to quality is reflected in every stitch. Each dress is crafted with precision using premium materials to ensure comfort, durability, and style.<br>
+        We ensure the qualty using our stafs in our office before delivering the item.</p>
+    </section>
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>"I love the unique designs and excellent quality of the dresses. Highly recommended!"</p>
+                <p>- meena</p>
+            </div>
+
+            <div class="review">
+                <p>"Fast shipping and great customer service. I'm a satisfied customer."</p>
+                <p>- Priya</p>
+            </div>
+
+            <div class="review">
+                <p>"The dresses exceeded my expectations. Will definitely shop again."</p>
+                <p>- Divya</p>
+            </div>
+            <div class="review">
+                <p>"The quality was above my expettations.nice i loved it."</p>
+                <p>- Jasmin</p>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br>
+    <section id="purchase" class="purchase">
+        <h2>Purchase</h2>
+        <p>You can condact us and costamize the designes and sent it to our e mail accound with your address and phone no.<br>
+        <b><i><u><h4>DELIVARY WITHIN 20 WORKING DAYS.</h4></u></i></b></p>
+        <p>Email: <a href="izzabotiqur123@gmail.com">izzabotiqur123@gmail.com</a></p>
+        <p>Phone: +919765054321</p>
+       
+    </section>
+    <br><br><br><br>
+    <section id="contact" class="contact-details">
+        <h2>Contact Us</h2>
+        <p>Have questions or need assistance? Feel free to reach out to us.</p>
+        <p>Email: <a href="izzabotiqur123@gmail.com">izzabotiqur123@gmail.com</a></p>
+        <p>Phone: +919765054321</p>
+        <div class="social-links">
+            <a href="https://www.instagram.com/your_instagram_username" target="_blank" class="social-link">Instagram</a>
+            <a href="https://twitter.com/your_twitter_username" target="_blank" class="social-link">Twitter</a>
+            <a href="https://www.facebook.com/your_facebook_username" target="_blank" class="social-link">Facebook</a>
+
+        </div>
+    </section>
+</body>
+</html>
